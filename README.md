@@ -1,9 +1,11 @@
 # DCAE
 
 
-# DEEP CONVOLUTIONAL AUTOENCODER FOR ESTIMATION OF NONSTATIONARY NOISE IN IMAGES, [link to the paper](https://ieeexplore.ieee.org/abstract/document/8946273?casa_token=AqijcHGSb7QAAAAA:6PdlPq_RGyVlB1Y3ff2oYpSeozwmTyyxw8i1W6MDJ2TqhIgnrPJs6d-H8NAzE4eIaO5iKjvA-H5jtBQ) 
+# Deep Convolutional Autoencoder For Estimation Of Nonstationary Noise In Images, [link to the paper](https://ieeexplore.ieee.org/abstract/document/8946273?casa_token=AqijcHGSb7QAAAAA:6PdlPq_RGyVlB1Y3ff2oYpSeozwmTyyxw8i1W6MDJ2TqhIgnrPJs6d-H8NAzE4eIaO5iKjvA-H5jtBQ) 
  ##  Abstract
 A precise estimation of noise parameters is very important in many image processing applications, such as denoising, deblurring, compression, etc. This problem is well studied for the case of stationary noise in images, and much less studied for the case of nonstationary noise. In this paper, we develop an efficient method of nonstationary noise variance estimation in image regions, based on specially designed deep convolutional autoencoder (DCAE) with a small dimensionality reduction. Training of the proposed DCAE is carried out for a large set of image blocks, including fragments of noise free textures, faces and texts. 
+
++ ** scheme of proposed SDNet (SConv - stride convolution , TConv - transpose convolution)**
 ![DCAE_scheme](https://user-images.githubusercontent.com/31028574/188620954-8f9c3e1a-aa9b-4ed9-b0b4-be933228282c.PNG)
 
 ### Training ###
