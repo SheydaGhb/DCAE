@@ -11,7 +11,7 @@ A precise estimation of noise parameters is very important in many image process
 ### Training ###
 Run ``` DCAE_train.py ``` with train dataset
 ### Tetsing ###
-Run ``` DCAE_test.py ``` with any test image. one test image t256.png is provided.
+Run ``` DCAE_test.py ``` with any test image, one test image t256.png is provided.
 
 ## Train data preparation ##
 The training set for DCAE is created in the following way: <br />
