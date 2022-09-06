@@ -15,9 +15,8 @@ Run ``` DCAE_test.py ```
 
 ## Train data preparation ##
 The training set for DCAE is created in the following way: <br />
-200 images are taken from the noise-free <br />
-1) image database TAMPERE17 [1] (1000 test blocks of size 16x16 are extracted from each test image). <br />
-2)203 images are taken from the faces image database IMDB-WIKI [2] (1000 test blocks of size 16x16 are extracted from each test image). <br />
+1) 200 images are taken from the noise-free image database TAMPERE17 [1] (1000 test blocks of size 16x16 are extracted from each test image). <br />
+2) 203 images are taken from the faces image database IMDB-WIKI [2] (1000 test blocks of size 16x16 are extracted from each test image). <br />
 3) 489 images are taken from the image database NEOCR [3] (1300 test blocks of size 16x16 are extracted from each test image). <br />
 In this way, 858700 block are included in the training set, which are named A1.mat A2.mat and A3.mat in the train script.
 
