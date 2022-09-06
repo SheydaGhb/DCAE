@@ -5,7 +5,7 @@
  ##  Abstract
 A precise estimation of noise parameters is very important in many image processing applications, such as denoising, deblurring, compression, etc. This problem is well studied for the case of stationary noise in images, and much less studied for the case of nonstationary noise. In this paper, we develop an efficient method of nonstationary noise variance estimation in image regions, based on specially designed deep convolutional autoencoder (DCAE) with a small dimensionality reduction. Training of the proposed DCAE is carried out for a large set of image blocks, including fragments of noise free textures, faces and texts. 
 
-+ ** scheme of proposed SDNet (SConv - stride convolution , TConv - transpose convolution)**
++ **Flow-chart of the proposed BENNV on the base of autoencoder **
 ![DCAE_scheme](https://user-images.githubusercontent.com/31028574/188620954-8f9c3e1a-aa9b-4ed9-b0b4-be933228282c.PNG)
 
 ### Training ###
