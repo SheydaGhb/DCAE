@@ -5,7 +5,7 @@
  ##  Abstract
 A precise estimation of noise parameters is very important in many image processing applications, such as denoising, deblurring, compression, etc. This problem is well studied for the case of stationary noise in images, and much less studied for the case of nonstationary noise. In this paper, we develop an efficient method of nonstationary noise variance estimation in image regions, based on specially designed deep convolutional autoencoder (DCAE) with a small dimensionality reduction. Training of the proposed DCAE is carried out for a large set of image blocks, including fragments of noise free textures, faces and texts. 
 
-+ **Flow-chart of the proposed BENNV on the base of autoencoder **
++ **Flow-chart of the proposed BENNV on the base of autoencoder**
 ![DCAE_scheme](https://user-images.githubusercontent.com/31028574/188620954-8f9c3e1a-aa9b-4ed9-b0b4-be933228282c.PNG)
 
 ### Training ###
@@ -14,13 +14,12 @@ Run ``` DCAE_train.py ``` with train dataset
 Run ``` DCAE_test.py ```
 
 ## Train data preparation ##
-The training set for DCAE is created in the
-following way: 
+The training set for DCAE is created in the following way: 
 200 images are taken from the noise-free 
 1) image database TAMPERE17 [1] (1000 test blocks of size 16x16 are extracted from each test image). <br />
 2)203 images are taken from the faces image database IMDB-WIKI [2] (1000 test blocks of size 16x16 are extracted from each test image). <br />
 3) 489 images are taken from the image database NEOCR [3] (1300 test blocks of size 16x16 are extracted from each test image). <br />
- In this way, 858700 block are included in the training set, which are named A1.mat A2.mat and A3.mat in the train script.
+In this way, 858700 block are included in the training set, which are named A1.mat A2.mat and A3.mat in the train script.
 
 For each image four scales are created by downsamplimg the images: 1:1, 1:2, 1:4 and 1:8. 60% of blocks are extracted from the scale 1:1, 25% are extracted from the scale 1:2, 10% are extracted from the scale 1:4, 5% are extracted from the scale 1:8. Blocks are selected in a random manner, but for blocks with a larger local variance the probability to be selected is higher.
 
