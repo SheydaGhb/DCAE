@@ -14,8 +14,8 @@ Run ``` DCAE_train.py ``` with train dataset
 Run ``` DCAE_test.py ```
 
 ## Train data preparation ##
-The training set for DCAE is created in the following way: 
-200 images are taken from the noise-free 
+The training set for DCAE is created in the following way: <br />
+200 images are taken from the noise-free <br />
 1) image database TAMPERE17 [1] (1000 test blocks of size 16x16 are extracted from each test image). <br />
 2)203 images are taken from the faces image database IMDB-WIKI [2] (1000 test blocks of size 16x16 are extracted from each test image). <br />
 3) 489 images are taken from the image database NEOCR [3] (1300 test blocks of size 16x16 are extracted from each test image). <br />
