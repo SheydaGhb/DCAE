@@ -23,6 +23,6 @@ In this way, 858700 block are included in the training set, which are named A1.m
 For each image four scales are created by downsamplimg the images: 1:1, 1:2, 1:4 and 1:8. 60% of blocks are extracted from the scale 1:1, 25% are extracted from the scale 1:2, 10% are extracted from the scale 1:4, 5% are extracted from the scale 1:8. Blocks are selected in a random manner, but for blocks with a larger local variance the probability to be selected is higher.
 
 ##  References ##
-[1] Ponomarenko, M., Gapon, N., Voronin, V., & Egiazarian, K. (2018). Blind estimation of white Gaussian noise variance in highly textured images. Electronic Imaging, 2018(13), 1-5.
-[2] Rothe, R., Timofte, R. & Gool, L.V. Deep expectation of real and apparent age from a single image without facial landmarks. International Journal of Computer Vision (IJCV), 2016. 
-[3] R. Nagy, A. Dicker and K. Meyer̺Wegener, "NEOCR: A Configurable Dataset for Natural Image Text Recognition". In CBDAR Workshop 2011 at ICDAR 2011. pp. 53̺58, September 2011.
+[1] Ponomarenko, M., Gapon, N., Voronin, V., & Egiazarian, K. (2018). Blind estimation of white Gaussian noise variance in highly textured images. Electronic Imaging, 2018(13), 1-5. <br />
+[2] Rothe, R., Timofte, R. & Gool, L.V. Deep expectation of real and apparent age from a single image without facial landmarks. International Journal of Computer Vision (IJCV), 2016. <br />
+[3] R. Nagy, A. Dicker and K. Meyer̺Wegener, "NEOCR: A Configurable Dataset for Natural Image Text Recognition". In CBDAR Workshop 2011 at ICDAR 2011. pp. 53̺58, September 2011. <br />
